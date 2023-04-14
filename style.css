@@ -1,12 +1,12 @@
 
 @font-face {
     font-family: pokeFont;
-    src: url("/assets/PokemonGB.ttf");
+    src: url("git assets/PokemonGB.ttf");
   }
 
 html{
     font-family: pokeFont;
-    background-image: url(/assets/8613.png);
+    background-image: url(assets/8613.png);
     background-size: 100%;
     background-repeat: no-repeat, repeat;
 }
