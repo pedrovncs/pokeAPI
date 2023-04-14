@@ -29,7 +29,7 @@ main{
     position: relative;
     width: 500px;
     height: 600px;
-    background-image: url(/assets/pokeInterface.png);
+    background-image: url(assets/pokeInterface.png);
     background-size: 100%;
     background-repeat: no-repeat, repeat;
     margin-top: 50px ;
