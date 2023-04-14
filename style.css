@@ -1,5 +1,84 @@
-body{
-    background-color: #010101;
-    text-align: center;
-    color: aliceblue;
+
+@font-face {
+    font-family: pokeFont;
+    src: url("/assets/PokemonGB.ttf");
+  }
+
+html{
+    font-family: pokeFont;
+    background-image: url(/assets/8613.png);
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
 }
+
+main{
+    font-family: 'pokeFont';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#search, #pokeName{
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+
+#pokedex{
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-image: url(/assets/pokeInterface.png);
+    background-size: 100%;
+    background-repeat: no-repeat, repeat;
+    margin-top: 50px ;
+}
+
+.imageScreen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 90px;
+    left: 14px;
+    z-index: -1;
+    width: 195px;
+    height: 230px;
+    font-size: auto;
+}
+
+.imageScreen img{
+    width: 100px;
+}
+
+.dataScreen{
+    width: 190px;
+    height: 230px;
+    position: absolute;
+    top: 98px;
+    right: 18px;
+    font-size: 14px;
+    overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(3, 3, 3);
+    border-radius: 5px;
+  }
