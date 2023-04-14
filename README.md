@@ -11,7 +11,7 @@ Um projeto de pokédex simples feito para aprender o consumo de API e conceitos 
 - [@pedrovncs](https://www.github.com/pedrovncs)
 
 
-![Logo](https://imgur.com/0YxoTmD)
+![Logo](https://i.imgur.com/0YxoTmD.png)
 ## 🛠 Skills
 Javascript, HTML, CSS...
 
