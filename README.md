@@ -1,5 +1,4 @@
 
-
 # Projeto pokeAPI
 
 Um projeto de pokédex simples feito para aprender o consumo de API e conceitos de Prgramação Assíncrona.
@@ -12,7 +11,7 @@ Um projeto de pokédex simples feito para aprender o consumo de API e conceitos 
 - [@pedrovncs](https://www.github.com/pedrovncs)
 
 
-![Logo](https://i.imgur.com/9S8pHYd.png)
+![Logo](https://imgur.com/0YxoTmD)
 ## 🛠 Skills
 Javascript, HTML, CSS...
 
@@ -32,7 +31,6 @@ Javascript, HTML, CSS...
 - Adicionar mais informações
 
 - Adicionar Responsivididade
-
 
 
 
