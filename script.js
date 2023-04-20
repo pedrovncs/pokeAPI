@@ -1,18 +1,16 @@
+const effectNegative = new Audio('assets/negativeEffect.mp3')
+const effectPositive = new Audio('assets/positiveEffect.mp3');
 const qS = _ => document.querySelector(_);
 qS('#search').addEventListener('click', getPoke);
 qS('#pokeName').addEventListener('keypress', (event) => {
     if (event.key === 'Enter') getPoke();
 })
 
-
 function upFL(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-
 function getPoke() {
-    var effect = new Audio('assets/sound.mp3');
-    effect.play();
     const name = qS('#pokeName').value.toLowerCase();
     fetch(`https://pokeapi.co/api/v2/pokemon/${name}`)
         .then((response) => response.json())
@@ -31,9 +29,11 @@ function getPoke() {
                     const description = dataSpecie.flavor_text_entries[1].flavor_text;
                     const genPoke = dataSpecie.generation.name.slice(11).toUpperCase();
 
+                    effectPositive.play();
                     qS('.imageScreen').innerHTML =
                         `
                         <img src="${imgPoke}" alt="${namePoke} sprite">
+                        <div>
                         <span>#${idPoke}</span>
                         <h3>${namePoke}</h3>
                         <div class='typeContainer'>
@@ -56,6 +56,7 @@ function getPoke() {
                 })
         })
         .catch((error) => {
+            effectNegative.play();
             qS(".imageScreen").innerHTML = '<h3>Pokemon não encontrado 😭<h2>';
             qS(".imageScreen").style = `background-color: white`
             qS(".dataScreen").innerHTML = null
