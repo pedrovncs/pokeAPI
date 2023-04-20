@@ -18,19 +18,8 @@ Javascript, HTML, CSS...
 
 ## Screenshots
 
-![App Screenshot](https://i.imgur.com/5qyNI1Y.png)
-![App Screenshot](https://i.imgur.com/ecU9aeT.png)
-
-
-## Roadmap
-
-- Adicionar novos sprites
-
-- Adicionar animações aos sprites
-
-- Adicionar mais informações
-
-- Adicionar Responsivididade
-
+![App Screenshot](https://i.imgur.com/AywASnx.png)
+![App Screenshot](https://i.imgur.com/pLKiPgk.png)
+![App Screenshot](https://i.imgur.com/AyhIyVZ.png)
 
 
