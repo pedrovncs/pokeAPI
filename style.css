@@ -42,49 +42,44 @@ main {
     align-items: center;
     padding: 10px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     position: absolute;
-    top: 90px;
-    left: 14px;
+    top: 100px;
+    left: 20px;
     z-index: -1;
-    width: 250px;
-    height: 280px;
+    width: 240px;
+    height: 255px;
     font-size: auto;
 }
 
+.shinyButton{
+    
+}
+
 .imageScreen img {
-    width: 150px;
+    width: 140px;
+}
+
+.imageScreen .typeContainer img{
+    width: 60px;
 }
 
 .dataScreen {
-    width: 230px;
-    height: 300px;
+    padding: 0 5px;
+    width: 215px;
+    height: 280px;
     position: absolute;
-    top: 105px;
-    right: 18px;
+    top: 120px;
+    right: 27px;
     font-size: 14px;
     overflow: auto;
-}
-
-.dataScreen p{
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 1s steps(30, end);
-}
-
-@keyframes typing {
-    from {
-        width: 0;
-    }
-
-    to {
-        width: 100%;
-    }
+    overflow-wrap: break-word;
 }
 
 /* width */
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 5px;
+    height: 5px;
 }
 
 /* Track */
@@ -97,4 +92,4 @@ main {
 ::-webkit-scrollbar-thumb {
     background: rgb(3, 3, 3);
     border-radius: 5px;
-}
+} 
